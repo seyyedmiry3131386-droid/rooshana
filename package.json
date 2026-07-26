@@ -1,0 +1,17 @@
+{
+  "name": "rooshana",
+  "version": "1.0.0",
+  "description": "Procedural, code-only SVG character generator — beautiful vector characters from a seed string.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "gen": "node scripts/render.js",
+    "sheet": "node scripts/sheet.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": ["svg", "character", "avatar", "generative", "procedural", "vector"],
+  "license": "MIT"
+}
