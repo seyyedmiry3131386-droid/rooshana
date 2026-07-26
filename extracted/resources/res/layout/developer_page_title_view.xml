@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ir.mservices.market.views.MyketTextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:textSize="@dimen/font_size_huge"
+    android:id="@+id/section_title"
+    android:tag="layout/developer_page_title_view_0"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/space_16"
+    android:layout_marginBottom="@dimen/space_16"
+    android:textAlignment="viewStart"
+    app:bold="true"/>

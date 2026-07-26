@@ -1,0 +1,7 @@
+package com.google.common.hash;
+
+import java.io.Serializable;
+
+/* JADX INFO: loaded from: classes.dex */
+public interface Funnel<T> extends Serializable {
+}

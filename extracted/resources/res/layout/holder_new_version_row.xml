@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ir.mservices.market.views.MyketTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textSize="@dimen/font_size_medium"
+    android:id="@+id/text"
+    android:tag="layout/holder_new_version_row_0"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/space_8"
+    android:layout_marginTop="@dimen/space_12"
+    android:layout_marginRight="@dimen/space_8"
+    android:drawablePadding="@dimen/space_8"
+    android:layout_marginHorizontal="@dimen/space_8"
+    style="@style/RtlGravity.Center"/>

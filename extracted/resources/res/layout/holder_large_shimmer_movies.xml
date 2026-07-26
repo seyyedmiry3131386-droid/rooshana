@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:tag="layout/holder_large_shimmer_movies_0"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layoutDirection="locale">
+    <ir.mservices.market.views.AlphaAnimationView
+        android:id="@+id/card_skeleton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_m"
+        android:layout_marginBottom="@dimen/space_m"
+        android:layout_marginVertical="@dimen/space_m"
+        app:layout_constraintBottom_toTopOf="@+id/title_skeleton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <ir.mservices.market.views.AlphaAnimationView
+        android:id="@+id/title_skeleton"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/space_xl"
+        android:layout_marginLeft="@dimen/horizontal_space_inner"
+        android:layout_marginTop="@dimen/space_m"
+        android:layout_marginRight="@dimen/horizontal_space_inner"
+        android:layout_marginBottom="@dimen/space_m"
+        android:layout_marginHorizontal="@dimen/horizontal_space_inner"
+        android:layout_marginVertical="@dimen/space_m"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/card_skeleton"
+        app:layout_constraintStart_toStartOf="@+id/card_skeleton"
+        app:layout_constraintTop_toBottomOf="@+id/card_skeleton"/>
+    <View
+        android:id="@+id/divider"
+        android:layout_width="@dimen/item_space"
+        android:layout_height="@dimen/divider_height"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/default_view"
+    android:tag="layout/holder_shimmer_header_0"
+    android:paddingLeft="@dimen/horizontal_space_outer"
+    android:paddingTop="@dimen/space_xl"
+    android:paddingRight="@dimen/horizontal_space_outer"
+    android:paddingBottom="@dimen/space_xl"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="@dimen/horizontal_space_outer"
+    android:paddingVertical="@dimen/space_xl">
+    <ir.mservices.market.views.AlphaAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="14dp"
+        android:layout_marginLeft="@dimen/horizontal_space_inner"
+        android:layout_marginRight="@dimen/horizontal_space_inner"
+        android:layout_marginHorizontal="@dimen/horizontal_space_inner"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

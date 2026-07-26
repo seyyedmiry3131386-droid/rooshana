@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ir.mservices.market.views.MyketVideoView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center_horizontal"
+    android:id="@+id/video_view"
+    android:tag="layout/holder_video_shot_0"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="locale"
+    android:layout_marginStart="@dimen/horizontal_space_inner"
+    android:layout_marginEnd="@dimen/horizontal_space_inner"
+    app:cardCornerRadius="@dimen/default_image_corner_radius"
+    app:cardElevation="@dimen/card_elevation"/>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="locale">
+    <FrameLayout
+        android:id="@+id/tabs_container"
+        android:tag="layout/view_profile_tabs_0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="locale"
+        app:layout_constraintTop_toTopOf="parent">
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabs"
+            android:longClickable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            app:tabIconTintMode="multiply"
+            app:tabInlineLabel="true"
+            app:tabMaxWidth="0dp"
+            style="@style/TabIndicatorGravity.Center"/>
+    </FrameLayout>
+    <ImageView
+        android:id="@+id/shadow"
+        android:tag="layout/view_profile_tabs_1"
+        android:background="@drawable/toolbar_shadow"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tabs_container"/>
+</merge>

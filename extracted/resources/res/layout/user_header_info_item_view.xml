@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ir.mservices.market.views.MyketTextView
+        android:textSize="@dimen/font_size_large"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/count"
+        android:tag="layout/user_header_info_item_view_0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:bold="true"/>
+    <ir.mservices.market.views.MyketTextView
+        android:textSize="@dimen/font_size_medium"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/text"
+        android:tag="layout/user_header_info_item_view_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</merge>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="bn_game_index">2</integer>
+    <integer name="bn_home_index">3</integer>
+    <integer name="bn_movie_index">1</integer>
+    <integer name="bn_update_index">0</integer>
+</resources>

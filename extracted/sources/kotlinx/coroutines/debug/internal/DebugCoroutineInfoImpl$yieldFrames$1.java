@@ -1,0 +1,16 @@
+package kotlinx.coroutines.debug.internal;
+
+import defpackage.tb1;
+import kotlin.coroutines.jvm.internal.ContinuationImpl;
+
+/* JADX INFO: loaded from: classes3.dex */
+@tb1(c = "kotlinx.coroutines.debug.internal.DebugCoroutineInfoImpl", f = "DebugCoroutineInfoImpl.kt", l = {169}, m = "yieldFrames")
+final class DebugCoroutineInfoImpl$yieldFrames$1 extends ContinuationImpl {
+    public /* synthetic */ Object a;
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final Object invokeSuspend(Object obj) {
+        this.a = obj;
+        throw null;
+    }
+}

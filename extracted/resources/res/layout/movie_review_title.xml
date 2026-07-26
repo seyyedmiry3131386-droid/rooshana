@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/clickView"
+    android:tag="layout/movie_review_title_0"
+    android:paddingTop="@dimen/space_m"
+    android:paddingBottom="@dimen/space_m"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ir.mservices.market.views.MyketTextView
+        android:textSize="@dimen/font_size_huge"
+        android:ellipsize="end"
+        android:id="@+id/title"
+        android:tag="binding_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/movie_review_info_title"
+        app:bold="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <ir.mservices.market.views.SmallBoldTextButton
+        android:gravity="end"
+        android:id="@+id/more_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_title_all"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

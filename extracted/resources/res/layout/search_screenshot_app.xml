@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:tag="layout/search_screenshot_app_0"
+    android:paddingLeft="@dimen/horizontal_space_outer"
+    android:paddingRight="@dimen/horizontal_space_outer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:tag="binding_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include layout="@layout/special_main_card"/>
+        <ir.mservices.market.views.NonTouchableRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card_view">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_12"
+                android:layout_below="@+id/recycler_view"/>
+        </ir.mservices.market.views.NonTouchableRelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

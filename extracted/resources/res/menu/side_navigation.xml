@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/animated_home_selector"
+        android:id="@+id/mainFeature"
+        android:title="@string/bn_home"
+        android:contentDescription="@string/bn_home"/>
+    <item
+        android:icon="@drawable/animated_game_selector"
+        android:id="@+id/gameFeature"
+        android:title="@string/bn_games"
+        android:contentDescription="@string/bn_games"/>
+    <item
+        android:icon="@drawable/animated_movie_selector"
+        android:id="@+id/movieHomeRoot"
+        android:title="@string/bn_movie"
+        android:contentDescription="@string/bn_movie"/>
+    <item
+        android:icon="@drawable/animated_update_selector"
+        android:id="@+id/rootUpdate"
+        android:title="@string/bn_my_update"
+        android:contentDescription="@string/bn_my_update"/>
+</menu>

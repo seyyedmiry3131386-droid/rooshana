@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph_purchase"
+    app:startDestination="@+id/reels">
+    <fragment
+        android:name="ir.mservices.market.reels.ui.ReelsFragment"
+        android:id="@+id/reels">
+        <argument
+            android:name="reel"
+            app:argType="ir.mservices.market.reels.data.ReelHomeDto"
+            app:nullable="true"/>
+        <argument
+            android:name="query"
+            app:argType="string"
+            app:nullable="true"/>
+        <action
+            android:id="@+id/toReels"
+            app:destination="@+id/reels"/>
+    </fragment>
+</navigation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:myket="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/ic_notifications_button"
+        android:id="@+id/action_notification"
+        android:visible="true"
+        android:title="@string/profile_notification"
+        myket:showAsAction="always"/>
+    <item
+        android:icon="@drawable/ic_more_ver"
+        android:id="@+id/action_more"
+        android:title=""
+        myket:showAsAction="always"/>
+</menu>

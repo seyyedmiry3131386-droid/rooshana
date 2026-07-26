@@ -1,0 +1,95 @@
+package ir.mservices.market.version2.manager.install;
+
+import defpackage.e71;
+import defpackage.g51;
+import defpackage.qp2;
+import defpackage.tb1;
+import defpackage.tx8;
+import kotlin.coroutines.jvm.internal.SuspendLambda;
+
+/* JADX INFO: loaded from: classes3.dex */
+@tb1(c = "ir.mservices.market.version2.manager.install.InstallQueue$setAppInPreProcess$1", f = "InstallQueue.kt", l = {69, 70}, m = "invokeSuspend", v = 1)
+final class InstallQueue$setAppInPreProcess$1 extends SuspendLambda implements qp2 {
+    public int a;
+    public /* synthetic */ Object b;
+    public final /* synthetic */ a c;
+    public final /* synthetic */ String d;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public InstallQueue$setAppInPreProcess$1(a aVar, String str, g51 g51Var) {
+        super(2, g51Var);
+        this.c = aVar;
+        this.d = str;
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final g51 create(Object obj, g51 g51Var) {
+        InstallQueue$setAppInPreProcess$1 installQueue$setAppInPreProcess$1 = new InstallQueue$setAppInPreProcess$1(this.c, this.d, g51Var);
+        installQueue$setAppInPreProcess$1.b = obj;
+        return installQueue$setAppInPreProcess$1;
+    }
+
+    @Override // defpackage.qp2
+    public final Object invoke(Object obj, Object obj2) {
+        return ((InstallQueue$setAppInPreProcess$1) create((e71) obj, (g51) obj2)).invokeSuspend(tx8.a);
+    }
+
+    /* JADX WARN: Code restructure failed: missing block: B:14:0x0040, code lost:
+    
+        if (r7.emit("", r6) == r1) goto L15;
+     */
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    /*
+        Code decompiled incorrectly, please refer to instructions dump.
+        To view partially-correct code enable 'Show inconsistent code' option in preferences
+    */
+    public final java.lang.Object invokeSuspend(java.lang.Object r7) {
+        /*
+            r6 = this;
+            java.lang.Object r0 = r6.b
+            e71 r0 = (defpackage.e71) r0
+            kotlin.coroutines.intrinsics.CoroutineSingletons r1 = kotlin.coroutines.intrinsics.CoroutineSingletons.a
+            int r2 = r6.a
+            ir.mservices.market.version2.manager.install.a r3 = r6.c
+            r4 = 2
+            r5 = 1
+            if (r2 == 0) goto L22
+            if (r2 == r5) goto L1e
+            if (r2 != r4) goto L16
+            kotlin.b.b(r7)
+            goto L43
+        L16:
+            java.lang.IllegalStateException r7 = new java.lang.IllegalStateException
+            java.lang.String r0 = "call to 'resume' before 'invoke' with coroutine"
+            r7.<init>(r0)
+            throw r7
+        L1e:
+            kotlin.b.b(r7)
+            goto L34
+        L22:
+            kotlin.b.b(r7)
+            kotlinx.coroutines.flow.i r7 = r3.a
+            r6.b = r0
+            r6.a = r5
+            java.lang.String r2 = r6.d
+            java.lang.Object r7 = r7.emit(r2, r6)
+            if (r7 != r1) goto L34
+            goto L42
+        L34:
+            kotlinx.coroutines.flow.i r7 = r3.a
+            r6.b = r0
+            r6.a = r4
+            java.lang.String r2 = ""
+            java.lang.Object r7 = r7.emit(r2, r6)
+            if (r7 != r1) goto L43
+        L42:
+            return r1
+        L43:
+            r7 = 0
+            defpackage.js3.j(r0, r7)
+            tx8 r7 = defpackage.tx8.a
+            return r7
+        */
+        throw new UnsupportedOperationException("Method not decompiled: ir.mservices.market.version2.manager.install.InstallQueue$setAppInPreProcess$1.invokeSuspend(java.lang.Object):java.lang.Object");
+    }
+}

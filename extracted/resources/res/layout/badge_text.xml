@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ir.mservices.market.views.MyketTextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:id="@+id/badge"
+    android:tag="layout/badge_text_0"
+    android:background="@drawable/badge"
+    android:padding="@dimen/margin_default_v2_quarter"
+    android:layout_width="@dimen/bn_badge_size"
+    android:layout_height="@dimen/bn_badge_size"
+    android:maxWidth="@dimen/bn_badge_size"
+    android:maxHeight="@dimen/bn_badge_size"
+    android:minWidth="@dimen/bn_badge_size"
+    android:minHeight="@dimen/bn_badge_size"
+    android:includeFontPadding="false"
+    app:autoSizeMaxTextSize="@dimen/bn_badge_max"
+    app:autoSizeMinTextSize="@dimen/bn_badge_min"
+    app:autoSizeStepGranularity="1dp"
+    app:autoSizeTextType="uniform"/>

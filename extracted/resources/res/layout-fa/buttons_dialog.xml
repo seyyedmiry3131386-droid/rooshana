@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:tag="layout-fa/buttons_dialog_0"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ir.mservices.market.views.BigTextButton
+        android:gravity="center"
+        android:id="@+id/commit"
+        android:tag="binding_1"
+        android:paddingLeft="@dimen/margin_default_v2"
+        android:paddingTop="@dimen/margin_default_v2_half"
+        android:paddingRight="@dimen/margin_default_v2"
+        android:paddingBottom="@dimen/margin_default_v2_half"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="64dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

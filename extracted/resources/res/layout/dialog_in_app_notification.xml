@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tag="layout/dialog_in_app_notification_0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/DialogCornerStyle">
+        <ir.mservices.market.views.DialogHeaderComponent
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/space_4"/>
+        <ir.mservices.market.views.MyketTextView
+            android:textSize="@dimen/font_size_large"
+            android:id="@+id/description"
+            android:tag="binding_1"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_12"
+            android:layout_marginBottom="@dimen/space_16"
+            style="@style/RtlGravity"/>
+        <ir.mservices.market.views.DialogButtonComponent
+            android:id="@+id/dialog_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_16"
+            android:layout_marginBottom="@dimen/space_12"/>
+    </LinearLayout>
+</FrameLayout>

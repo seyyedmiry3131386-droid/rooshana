@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/default_view"
+    android:tag="layout/holder_shimmer_single_app_0"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/horizontal_space_outer"
+    android:paddingEnd="@dimen/horizontal_space_outer">
+    <ir.mservices.market.views.AlphaAnimationView
+        android:id="@+id/screenshots_skeleton"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/screenshot_height"
+        android:layout_marginTop="@dimen/space_m"
+        android:layout_marginBottom="@dimen/space_m"
+        android:layout_marginStart="@dimen/horizontal_space_inner"
+        android:layout_marginEnd="@dimen/horizontal_space_inner"
+        android:layout_marginVertical="@dimen/space_m"
+        app:layout_constraintBottom_toTopOf="@+id/app_skeleton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <include
+        android:id="@+id/app_skeleton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/screenshots_skeleton"
+        layout="@layout/holder_shimmer_application_horizontal"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

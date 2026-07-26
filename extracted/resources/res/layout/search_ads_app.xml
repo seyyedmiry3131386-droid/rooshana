@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:tag="layout/search_ads_app_0"
+    android:paddingLeft="@dimen/recycler_view_horizontal_app_padding"
+    android:paddingRight="@dimen/recycler_view_horizontal_app_padding"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <include layout="@layout/special_main_card"/>
+</FrameLayout>

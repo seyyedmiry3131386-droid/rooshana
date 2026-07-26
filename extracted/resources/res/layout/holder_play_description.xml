@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:tag="layout/holder_play_description_0"
+    android:paddingTop="@dimen/space_8"
+    android:paddingBottom="@dimen/space_8"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ir.mservices.market.views.MyketTextView
+        android:textSize="@dimen/font_size_large"
+        android:id="@+id/title"
+        android:tag="binding_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/description"
+        android:textAlignment="viewStart"
+        app:bold="true"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <ir.mservices.market.views.MyketTextView
+        android:textSize="@dimen/font_size_medium"
+        android:id="@+id/description"
+        android:tag="binding_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/title"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

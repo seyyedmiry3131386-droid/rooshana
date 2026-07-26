@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:tag="layout/holder_movie_review_more_0"
+    android:paddingLeft="@dimen/horizontal_space_outer"
+    android:paddingRight="@dimen/horizontal_space_outer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="@dimen/horizontal_space_outer">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout"
+        android:paddingLeft="@dimen/recycler_view_horizontal_padding"
+        android:paddingTop="@dimen/margin_default_v2"
+        android:paddingRight="@dimen/recycler_view_horizontal_padding"
+        android:paddingBottom="@dimen/margin_default_v2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/horizontal_space_inner"
+        android:layout_marginTop="@dimen/margin_default_v2_oneHalf"
+        android:layout_marginRight="@dimen/horizontal_space_inner"
+        android:layout_marginBottom="@dimen/margin_default_v2"
+        android:layout_marginHorizontal="@dimen/horizontal_space_inner">
+        <ir.mservices.market.views.BigTextButton
+            android:gravity="center"
+            android:id="@+id/more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/movie_episode_more"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

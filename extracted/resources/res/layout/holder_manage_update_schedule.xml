@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/clickable_layout"
+    android:tag="layout/holder_manage_update_schedule_0"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:paddingTop="@dimen/space_16"
+        android:paddingBottom="@dimen/space_16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/horizontal_space_inner"
+        android:paddingEnd="@dimen/horizontal_space_inner">
+        <ir.mservices.market.views.MyketTextView
+            android:textSize="@dimen/font_size_large"
+            android:id="@+id/title"
+            android:tag="binding_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/manage_schedule_update"
+            android:textAlignment="viewStart"
+            app:bold="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/action_switch_layout"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <FrameLayout
+            android:id="@+id/action_switch_layout"
+            android:focusable="true"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+            <ir.mservices.market.views.MyketSwitch
+                android:layout_gravity="center"
+                android:id="@+id/action_switch"
+                android:clickable="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

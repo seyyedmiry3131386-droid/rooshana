@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-files-path
+        name="apk"
+        path="download"/>
+    <external-files-path
+        name="share_app"
+        path="share/receive"/>
+    <external-files-path
+        name="image"
+        path="photo"/>
+    <files-path
+        name="image_internal"
+        path="photo"/>
+    <external-path
+        name="movie_download"
+        path="Download/MyketMovies"/>
+</paths>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parent_view"
+    android:tag="layout/app_info_view_0"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ir.mservices.market.views.MyketTextView
+        android:textSize="@dimen/font_size_normal"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/rate_text"
+        android:tag="binding_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:id="@+id/rate_star"
+        android:layout_width="@dimen/in_app_icon_size"
+        android:layout_height="@dimen/in_app_icon_size"
+        android:layout_marginStart="@dimen/space_4"
+        app:srcCompat="@drawable/ic_star_fill"/>
+    <View
+        android:layout_gravity="center_vertical"
+        android:id="@+id/download_divider"
+        android:tag="binding_2"
+        android:layout_width="1dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="@dimen/space_4"/>
+    <ir.mservices.market.views.MyketTextView
+        android:textSize="@dimen/font_size_normal"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/download_count"
+        android:tag="binding_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/space_4"/>
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:id="@+id/download_icon"
+        android:layout_width="@dimen/in_app_icon_size"
+        android:layout_height="@dimen/in_app_icon_size"
+        android:layout_marginStart="@dimen/space_4"/>
+</LinearLayout>

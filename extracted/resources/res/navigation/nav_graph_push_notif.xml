@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph_push_notif"
+    app:startDestination="@+id/pushNotif">
+    <dialog
+        android:name="ir.mservices.market.version2.fragments.dialog.PushNotifDialogFragment"
+        android:id="@+id/pushNotif">
+        <argument
+            android:name="data"
+            app:argType="ir.mservices.market.version2.fragments.dialog.DialogDataModel"
+            app:nullable="false"/>
+        <argument
+            android:name="url"
+            app:argType="string"
+            app:nullable="false"/>
+        <argument
+            android:name="pageTitle"
+            app:argType="string"
+            app:nullable="true"/>
+        <argument
+            android:name="iconUrl"
+            app:argType="string"
+            app:nullable="true"/>
+        <action
+            android:id="@+id/toPushNotif"
+            app:destination="@+id/pushNotif"/>
+    </dialog>
+</navigation>

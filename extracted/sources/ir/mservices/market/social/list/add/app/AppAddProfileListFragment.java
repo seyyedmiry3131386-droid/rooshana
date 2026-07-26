@@ -1,0 +1,86 @@
+package ir.mservices.market.social.list.add.app;
+
+import defpackage.bi5;
+import defpackage.de;
+import defpackage.em;
+import defpackage.g27;
+import defpackage.is3;
+import defpackage.js3;
+import defpackage.k12;
+import defpackage.rs6;
+import ir.mservices.market.social.list.items.SelectedItemsAction;
+import ir.mservices.market.social.list.items.SelectedItemsFragment;
+import ir.mservices.market.social.list.search.SearchProfileListFragment;
+import ir.mservices.market.version2.fragments.dialog.DialogDataModel;
+import kotlin.Pair;
+
+/* JADX INFO: loaded from: classes3.dex */
+public final class AppAddProfileListFragment extends Hilt_AppAddProfileListFragment {
+    public final bi5 g1 = new bi5(g27.a(em.class), new de(1, this));
+
+    @Override // ir.mservices.market.common.base.BaseContentFragment
+    public final String C() {
+        String strL = L(rs6.page_name_add_custom_app_list);
+        js3.o(strL, "getString(...)");
+        return strL;
+    }
+
+    @Override // ir.mservices.market.social.list.add.BaseAddProfileListFragment
+    public final DialogDataModel m1() {
+        return ((em) this.g1.getValue()).d;
+    }
+
+    @Override // ir.mservices.market.social.list.add.BaseAddProfileListFragment
+    public final String o1(int i) {
+        if (i == 1) {
+            String strM = M(rs6.profile_list_app_title_count, Integer.valueOf(i));
+            js3.o(strM, "getString(...)");
+            return strM;
+        }
+        if (i > 1) {
+            String strM2 = M(rs6.profile_list_app_title_counts, Integer.valueOf(i));
+            js3.o(strM2, "getString(...)");
+            return strM2;
+        }
+        String strL = L(rs6.profile_list_app_title);
+        js3.o(strL, "getString(...)");
+        return strL;
+    }
+
+    @Override // ir.mservices.market.social.list.add.BaseAddProfileListFragment
+    public final SelectedItemsFragment p1() {
+        return new SelectedItemsFragment();
+    }
+
+    @Override // ir.mservices.market.social.list.add.BaseAddProfileListFragment
+    public final SelectedItemsAction q1() {
+        return SelectedItemsAction.SaveAppAction.INSTANCE;
+    }
+
+    @Override // ir.mservices.market.social.list.add.BaseAddProfileListFragment
+    public final SearchProfileListFragment r1() {
+        SearchProfileListFragment searchProfileListFragment = new SearchProfileListFragment();
+        searchProfileListFragment.u0(is3.g(new Pair("BUNDLE_KEY_IS_APP", Boolean.TRUE)));
+        return searchProfileListFragment;
+    }
+
+    @Override // ir.mservices.market.social.list.add.BaseAddProfileListFragment
+    public final String s1(String str) {
+        js3.p(str, "title");
+        String string = K().getString(rs6.selected_app_item_toast_massage, str);
+        js3.o(string, "getString(...)");
+        return string;
+    }
+
+    @Override // ir.mservices.market.social.list.add.BaseAddProfileListFragment
+    public final void u1(k12 k12Var) {
+        js3.p(k12Var, "emptyViewBinding");
+        k12Var.x.setText(L(rs6.profile_list_app_empty_view_description));
+        k12Var.v.setText(L(rs6.add_app_action_button));
+    }
+
+    @Override // ir.mservices.market.social.list.add.BaseAddProfileListFragment
+    public final boolean v1() {
+        return true;
+    }
+}

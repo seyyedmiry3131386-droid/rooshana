@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ir.mservices.market.views.MyketTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textSize="@dimen/font_size_large"
+    android:ellipsize="end"
+    android:id="@+id/title"
+    android:tag="layout/feedback_transaction_header_0"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/choose_transaction_header"
+    android:singleLine="true"
+    android:textAlignment="viewStart"/>

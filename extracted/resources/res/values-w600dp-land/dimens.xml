@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="actionbar_end_space">4dp</dimen>
+    <dimen name="actionbar_start_space">0dp</dimen>
+    <dimen name="app_card_count">3</dimen>
+    <dimen name="app_info_height_factor">3.5</dimen>
+    <dimen name="clock_face_margin_start">64dp</dimen>
+    <dimen name="discount_badge_size">16dp</dimen>
+    <dimen name="font_size_huge">18dp</dimen>
+    <dimen name="font_size_large">16dp</dimen>
+    <dimen name="font_size_medium">14dp</dimen>
+    <dimen name="font_size_normal">12dp</dimen>
+    <dimen name="font_size_small">10dp</dimen>
+    <dimen name="font_size_super_huge">20dp</dimen>
+    <dimen name="large_movie_banner_card_count">1</dimen>
+    <dimen name="large_movie_card_count">2</dimen>
+    <dimen name="login_info_title_margin">0dp</dimen>
+    <dimen name="login_info_title_top_margin">@dimen/margin_default_v2_half</dimen>
+    <dimen name="medium_movie_banner_card_count">1.5</dimen>
+    <dimen name="medium_movie_card_count">2.5</dimen>
+    <dimen name="movie_episode_banner_landscape_height">80dp</dimen>
+    <dimen name="movie_episode_banner_landscape_width">142dp</dimen>
+    <dimen name="movie_episode_banner_portrait_height">82dp</dimen>
+    <dimen name="movie_episode_banner_portrait_width">54dp</dimen>
+    <dimen name="movie_play_height">32dp</dimen>
+    <dimen name="movie_player_icon_size_big">64dp</dimen>
+    <dimen name="movie_player_icon_size_small">32dp</dimen>
+    <dimen name="multi_app_card_count">1</dimen>
+    <dimen name="other_streamers_card_count">4.5</dimen>
+    <dimen name="payment_gateway_item_logo_padding">8dp</dimen>
+    <dimen name="search_movie_card_count">3</dimen>
+    <dimen name="small_movie_banner_card_count">2</dimen>
+    <dimen name="small_movie_card_count">3</dimen>
+    <dimen name="toolbar_back_padding">16dp</dimen>
+    <dimen name="user_card_count">4</dimen>
+</resources>

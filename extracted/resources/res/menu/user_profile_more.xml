@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/ic_menu_article"
+        android:id="@+id/action_article"
+        android:visible="false"/>
+    <item
+        android:icon="@drawable/ic_install"
+        android:id="@+id/action_other"
+        android:visible="false"/>
+    <item
+        android:icon="@drawable/ic_action_share"
+        android:id="@+id/action_share"
+        android:title="@string/share"/>
+    <item
+        android:icon="@drawable/ic_flag_report_player_error"
+        android:id="@+id/action_report"
+        android:title="@string/report"/>
+</menu>

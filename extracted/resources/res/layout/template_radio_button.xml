@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ir.mservices.market.views.MyketRadioButton xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:tag="layout/template_radio_button_0"
+    android:paddingTop="@dimen/space_8"
+    android:paddingBottom="@dimen/space_8"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:button="@null"
+    android:minWidth="0dp"
+    android:drawablePadding="@dimen/space_8"
+    android:paddingStart="@dimen/space_16"
+    android:paddingEnd="@dimen/space_16"
+    app:buttonCompat="@null"
+    style="@style/RtlGravity.Center"/>

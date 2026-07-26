@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/empty_view"
+    android:tag="layout/empty_city_view_0"
+    android:paddingTop="@dimen/space_24"
+    android:paddingBottom="@dimen/space_24"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ir.mservices.market.views.MyketTextView
+        android:textSize="@dimen/font_size_medium"
+        android:gravity="center"
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/empty_city"
+        android:paddingStart="@dimen/space_8"
+        android:paddingEnd="@dimen/space_8"/>
+</LinearLayout>

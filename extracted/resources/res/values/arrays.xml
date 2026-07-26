@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="account_message_level_spinner_titles">
+        <item>@string/account_massage_access_level_spinner_title_everyone</item>
+        <item>@string/account_massage_access_level_spinner_title_followers</item>
+        <item>@string/account_massage_access_level_spinner_title_no_one</item>
+    </array>
+    <array name="account_privacy_spinner_titles">
+        <item>@string/account_access_level_spinner_title_everyone</item>
+        <item>@string/account_access_level_spinner_title_followers</item>
+        <item>@string/account_access_level_spinner_title_no_one</item>
+    </array>
+    <array name="audio_error">
+        <item>@string/player_audio_error_play_quality</item>
+        <item>@string/player_audio_error_active_narration</item>
+        <item>@string/player_audio_error_sync</item>
+        <item>@string/player_audio_error_volume</item>
+    </array>
+    <array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>Normal</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </array>
+    <array name="feedback_spinner_titles">
+        <item>@string/feedback_spinner_title_payment</item>
+        <item>@string/feedback_spinner_title_download</item>
+        <item>@string/feedback_spinner_title_account</item>
+        <item>@string/feedback_spinner_title_suggestion</item>
+        <item>@string/feedback_spinner_title_suggestions</item>
+    </array>
+    <array name="feedback_spinner_values">
+        <item>@string/feedback_spinner_value_payment</item>
+        <item>@string/feedback_spinner_value_download</item>
+        <item>@string/feedback_spinner_value_account</item>
+        <item>@string/feedback_spinner_value_suggestion</item>
+        <item>@string/feedback_spinner_value_suggestions</item>
+    </array>
+    <array name="gender_spinner_titles">
+        <item>@string/gender_spinner_title_male</item>
+        <item>@string/gender_spinner_title_female</item>
+    </array>
+    <array name="id_audio_error">
+        <item>201</item>
+        <item>202</item>
+        <item>203</item>
+        <item>204</item>
+    </array>
+    <array name="id_subtitle_error">
+        <item>301</item>
+        <item>302</item>
+        <item>303</item>
+        <item>304</item>
+    </array>
+    <array name="id_video_error">
+        <item>101</item>
+        <item>102</item>
+        <item>103</item>
+    </array>
+    <array name="key_audio_error">
+        <item>خطا در پخش صدا</item>
+        <item>خطا در فعال شدن دوبله</item>
+        <item>خطا در هماهنگی دوبله و تصویر</item>
+        <item>خطا در میزان بلندی صدا</item>
+    </array>
+    <array name="key_subtitle_error">
+        <item>خطا در فعال شدن زیرنویس</item>
+        <item>خطا در هماهنگی زیرنویس با تصویر</item>
+        <item>خطا در ناخوانا بودن فونت زیرنویس</item>
+        <item>خطا در ضعیف بودن ادبیات زیرنویس</item>
+    </array>
+    <array name="key_video_error">
+        <item>خطا در کیفیت تصویر</item>
+        <item>خطا در ابعاد تصویر</item>
+        <item>خطا در سرعت پخش تصویر</item>
+    </array>
+    <array name="repetitive_city">
+        <item>تهران</item>
+        <item>اصفهان</item>
+        <item>مشهد</item>
+        <item>شیراز</item>
+        <item>تبریز</item>
+        <item>کرج</item>
+        <item>یزد</item>
+        <item>اهواز</item>
+        <item>رشت</item>
+        <item>بندرعباس</item>
+        <item>همدان</item>
+        <item>کرمان</item>
+        <item>قم</item>
+    </array>
+    <array name="schedule_times">
+        <item>@string/twenty_four_pm</item>
+        <item>@string/one_am</item>
+        <item>@string/two_am</item>
+        <item>@string/three_am</item>
+        <item>@string/four_am</item>
+        <item>@string/five_am</item>
+        <item>@string/six_am</item>
+        <item>@string/seven_am</item>
+        <item>@string/eight_am</item>
+        <item>@string/nine_am</item>
+        <item>@string/ten_am</item>
+        <item>@string/eleven_am</item>
+        <item>@string/twelve_pm</item>
+        <item>@string/thirteen_pm</item>
+        <item>@string/fourteen_pm</item>
+        <item>@string/fifteen_pm</item>
+        <item>@string/sixteen_pm</item>
+        <item>@string/seventeen_pm</item>
+        <item>@string/eighteen_pm</item>
+        <item>@string/nineteen_pm</item>
+        <item>@string/twenty_pm</item>
+        <item>@string/twenty_one_pm</item>
+        <item>@string/twenty_two_pm</item>
+        <item>@string/twenty_three_pm</item>
+    </array>
+    <array name="subtitle_error">
+        <item>@string/player_subtitle_error_active_subtitle</item>
+        <item>@string/player_subtitle_error_sync</item>
+        <item>@string/player_subtitle_error_unreadable</item>
+        <item>@string/player_subtitle_error_weak</item>
+    </array>
+    <array name="version_note_arr">
+        <item>-10.2.8</item>
+        <item>Added podcast playback support (rolling out gradually)</item>
+        <item>Minor bug fixes</item>
+        <item>-10.2.4</item>
+        <item>Minor bug fixes</item>
+        <item>-10.2.2</item>
+        <item>Improved and refreshed design for the My Market, Settings, and Account pages</item>
+        <item>Improved design of the App Details page</item>
+        <item>Improved video and series playback performance</item>
+        <item>Fixed some minor bugs</item>
+        <item>-10.1.7</item>
+        <item>App installation pre-approval (gradual rollout)</item>
+        <item>Graphical improvements</item>
+        <item>Minor bug fixes</item>
+        <item>-10.1.3</item>
+        <item>AI section added (coming soon)</item>
+        <item>Minor bug fixes</item>
+        <item>-10.1.0</item>
+        <item>Some minor bugs fixed</item>
+        <item>-10.0.9</item>
+        <item>Some minor bugs fixed</item>
+        <item>-10.0.7</item>
+        <item>Graphical changes to the movie player</item>
+        <item>Added playback speed</item>
+        <item>Minor bugs fixed</item>
+        <item>-10.0.6</item>
+        <item>Added the ability to Reduce games ping in settings</item>
+        <item>Added Remove in-app ads in settings</item>
+        <item>Improved app details page on tablets</item>
+        <item>Compatibility with Android 15</item>
+        <item>Minor bug fixes</item>
+        <item>-10.0.0</item>
+        <item>AI-powered review summaries</item>
+        <item>Added streamers profile page</item>
+        <item>Added ability to Like profile lists</item>
+        <item>Ability to add user-suggested lists to your lists</item>
+        <item>Minor bug fixes</item>
+        <item>-9.9.7</item>
+        <item>Change the design of movie and series details on mobile and tablet</item>
+        <item>Graphical changes in app details</item>
+        <item>Download Movies and Series</item>
+        <item>Fixed some minor bugs</item>
+        <item>-9.9.4</item>
+        <item>New Profile and Social</item>
+        <item>Added the ability to download reels</item>
+        <item>Fixed some minor bugs</item>
+        <item>-9.9.1</item>
+        <item>Usage management option added to Settings</item>
+        <item>Ability to change the theme and font (accessible in Settings)</item>
+        <item>Improved trailer playback</item>
+        <item>Enhanced design for tablets</item>
+        <item>Fixed some minor bugs</item>
+        <item>-9.8.9</item>
+        <item>Some improvements for Android 14</item>
+        <item>Added AppShortcut to Myket icon</item>
+        <item>Some improvements for Reels</item>
+        <item>Added the possibility of locking the screen in video player</item>
+        <item>Fixed some minor bugs</item>
+        <item>-9.8.1</item>
+        <item>Myket Reels (Will be activated partially)</item>
+        <item>Fix installing apps on some Xiaomi devices</item>
+        <item>Fixed some minor bugs</item>
+        <item>-9.7.0</item>
+        <item>Some improvements to apps details</item>
+        <item>Added Child-Mode in the settings</item>
+        <item>Fixed some minor bugs</item>
+        <item>-9.6.6</item>
+        <item>Added Child-Mode</item>
+        <item>Graphics improvements for tablets</item>
+        <item>Fixed some minor bugs</item>
+        <item>-9.6.3</item>
+        <item>Improvements in downloading and installing apps</item>
+        <item>Some graphical improvements on the home page</item>
+        <item>Fixed some minor bugs</item>
+        <item>-9.5.9</item>
+        <item>Graphical improvements on some pages</item>
+        <item>Fixed some minor bugs</item>
+        <item>-9.5.4</item>
+        <item>Improved recent downloads</item>
+        <item>Improved supports</item>
+        <item>Improved payment transactions</item>
+        <item>Fixed some minor bugs</item>
+        <item>-9.4.5</item>
+        <item>Share installed apps to another device</item>
+        <item>Some improvements on apps installation process</item>
+        <item>Graphical improvements on apps and games</item>
+        <item>Fixed some minor bugs</item>
+        <item>-9.3.5</item>
+        <item>Easier access to updates list</item>
+        <item>Graphical improvements in My Market</item>
+        <item>Fixed some minor bugs</item>
+        <item>-9.3.2</item>
+        <item>Graphic improvements in movies and series</item>
+        <item>Fixing reported issues in movie player</item>
+        <item>Fixed some minor bugs</item>
+        <item>-9.1.9</item>
+        <item>Advance apps reviews</item>
+        <item>Graphic improvements reviews</item>
+        <item>Sharing movies and series</item>
+        <item>-9.1.4</item>
+        <item>Graphic improvements in app and movie details</item>
+        <item>Graphic improvements reviews</item>
+        <item>Fixed installing apps on some devices</item>
+        <item>-9.0.9</item>
+        <item>Compatibility with Android 12</item>
+        <item>Graphic improvements</item>
+        <item>Fixed some minor bugs</item>
+        <item>-9.0.5</item>
+        <item>Graphic improvements on movies home</item>
+        <item>Report inappropriate movies review</item>
+        <item>Fixed some minor bugs</item>
+        <item>-9.0.2</item>
+        <item>Security Shield</item>
+        <item>Some changes in MyMarket</item>
+        <item>Add movies bookmark list</item>
+        <item>Ability to report problems in playing movies</item>
+        <item>-8.0.5</item>
+        <item>Movies and series review</item>
+        <item>Fixed some issues with movie playback</item>
+        <item>Some graphical improvements</item>
+        <item>Fixed some minor bugs</item>
+        <item>-7.9.9</item>
+        <item>Select seasons and episodes of series during playback</item>
+        <item>Improve user experience of requesting the app from Google Play</item>
+        <item>Some graphical improvements</item>
+        <item>Fixed some minor bugs</item>
+        <item>-7.9.5</item>
+        <item>Improve the process of installing apps and games</item>
+        <item>Add Video introductions and reviews on the app details</item>
+        <item>Add suggestions in search of movies and series</item>
+        <item>Play next episode at the end of the series</item>
+        <item>Some graphical improvements</item>
+        <item>Fixed some minor bugs</item>
+        <item>-7.8.9</item>
+        <item>Graphical improvements in Profile</item>
+        <item>UX improvements in Search</item>
+        <item>Movie bookmark</item>
+        <item>Graphical improvements in Movies and Series</item>
+        <item>Fixed some minor bugs</item>
+        <item>-7.8.5</item>
+        <item>Movies and Series</item>
+        <item>Added Reviews on the My Market</item>
+        <item>Fast Pay</item>
+        <item>Graphical improvements in app search</item>
+        <item>UX improvements in some pages</item>
+        <item>Fixed some reported problems in installing obb</item>
+        <item>Fixed some minor bugs</item>
+        <item>-7.7.3</item>
+        <item>Add practical data to and improve the design of app information section</item>
+        <item>Improve the categories of games and apps</item>
+        <item>Improve the installation process of games having data in Android 11</item>
+        <item>Minor changes and bug fixes</item>
+        <item>-7.6.6</item>
+        <item>Add information tags to Games’ detail pages (The information would be completed gradually)</item>
+        <item>Improve the installation process of games having data</item>
+        <item>Improve notification system to support Huawei Devices</item>
+        <item>Minor changes and bug fixes</item>
+        <item>-7.6.3</item>
+        <item>Add “My Market” page as new page to enhance user interactions with App</item>
+        <item>Merge Updates page with items existing in menu in “My Market” page</item>
+        <item>Minor changes and bug fixes</item>
+        <item>-7.5.7</item>
+        <item>Improve sing up and sign in</item>
+        <item>Improve payment ux</item>
+        <item>Bug fixes and stability improvements of in-app-purchase</item>
+        <item>You can now report users’ lists they expose in their profiles</item>
+        <item>Improvements of ads visibility</item>
+        <item>-7.5.1</item>
+        <item>Improved scheduled download feature</item>
+        <item>Fix payment issue on some Huawei devices</item>
+        <item>Fixed some minor bugs</item>
+        <item>-7.4.8</item>
+        <item>Redesign Search section</item>
+        <item>Redesign Customer Service</item>
+        <item>Fix payment issue happening in Xiaomi devices</item>
+        <item>Minor changes and improvements</item>
+        <item>-7.4.2</item>
+        <item>Graphical improvements in user reviews</item>
+        <item>Some graphical improvements in app detail</item>
+        <item>Fix in-app payment issue in some devices</item>
+        <item>Fixed some minor bugs</item>
+        <item>-7.3.8</item>
+        <item>Graphical improvements in app detail</item>
+        <item>UX improvements in app detail</item>
+        <item>Fixed some minor bugs</item>
+        <item>-7.3.5</item>
+        <item>Graphical improvements</item>
+        <item>Minor bugs fixed</item>
+        <item>-7.3.2</item>
+        <item>Graphical improvements</item>
+        <item>Minor bugs fixed</item>
+        <item>-7.3</item>
+        <item>Arbaeen walk service</item>
+        <item>Graphical improvements</item>
+        <item>Minor bugs fixed</item>
+        <item>-7.2.6</item>
+        <item>Graphical improvements in main page</item>
+        <item>Graphical improvements</item>
+        <item>Minor bugs fixed</item>
+        <item>-7.2</item>
+        <item>Payment flow improvements</item>
+        <item>Graphical improvements</item>
+        <item>Minor bugs fixed</item>
+        <item>-7.1.8</item>
+        <item>Graphical improvements</item>
+        <item>Minor bugs fixed</item>
+        <item>-7.1.6</item>
+        <item>Graphical improvements</item>
+        <item>Preparing Nowruz campaign</item>
+        <item>Open apps directly from Google Play</item>
+        <item>-7.1.4</item>
+        <item>Troubleshoot app installation on some Huawei devices</item>
+        <item>-7.1.2</item>
+        <item>Android 8 Compatibility</item>
+        <item>Improvements in scheduled download</item>
+        <item>Graphical improvements</item>
+        <item>-7.0.6</item>
+        <item>Graphical improvements</item>
+        <item>-7.0.2</item>
+        <item>Minor bugs fixed</item>
+        <item>-7.0.0</item>
+        <item>Graphical general changes</item>
+        <item>-6.8.2</item>
+        <item>Minor bugs fixed</item>
+        <item>-6.8.0</item>
+        <item>Night Mode</item>
+        <item>Graphical improvements</item>
+        <item>-6.7.3</item>
+        <item>Minor bugs fixed</item>
+        <item>-6.7.2</item>
+        <item>Graphical improvements in main page</item>
+        <item>Minor bugs fixed</item>
+        <item>-6.7.1</item>
+        <item>Minor bugs fixed</item>
+        <item>-6.7.0</item>
+        <item>Graphical improvements in main page</item>
+        <item>Graphical improvements in app details</item>
+        <item>Fix download issues</item>
+        <item>-6.6.7</item>
+        <item>Fix install bug in some devices</item>
+        <item>-6.6.6</item>
+        <item>Minor bugs fixed</item>
+        <item>-6.6.5</item>
+        <item>Market Plus</item>
+        <item>Graphical improvements</item>
+        <item>Minor bugs fixed</item>
+        <item>-6.6.0</item>
+        <item>Added mobile payment gateway</item>
+        <item>Improved display of app images</item>
+        <item>Improved schedule download</item>
+        <item>-6.5.5</item>
+        <item>Added notification section on profile page</item>
+        <item>Minor bugs fixed</item>
+        <item>-6.5.0</item>
+        <item>You can add telegram, instagram and website accounts to your profile</item>
+        <item>Delete your posts comments</item>
+        <item>Add search history</item>
+        <item>Fix app request problem</item>
+        <item>-6.4.5</item>
+        <item>Minor bugs fixed</item>
+        <item>-6.4.2</item>
+        <item>Fix installation bug in some devices</item>
+        <item>-6.4.1</item>
+        <item>Minor bugs fixed</item>
+        <item>-6.4.0</item>
+        <item>Fix mobile payment gateway issues</item>
+        <item>Improve fast-checkout scenario</item>
+        <item>Easier to buy from Myket wallet</item>
+        <item>-6.3.6</item>
+        <item>Mobile payment minor bugs fixed</item>
+        <item>-6.3.5</item>
+        <item>Added mobile payment gateway</item>
+        <item>Fixed some minor bugs</item>
+        <item>-6.3</item>
+        <item>Users can write posts (Content containing text, photos and videos)</item>
+        <item>Graphical changes in Profile</item>
+        <item>Graphical changes in MyNet</item>
+        <item>-6.2</item>
+        <item>Voice search</item>
+        <item>Reorder your account lists</item>
+        <item>Reorder of the apps in your account lists</item>
+        <item>-6.1</item>
+        <item>Support for non-official telegrams in account registration</item>
+        <item>Add recent apps (Menu &gt; My Apps)</item>
+        <item>View full screen apps icon (by touching on the icon in app details page)</item>
+        <item>-6.0.7</item>
+        <item>Add \"MyNet\" in the main menu</item>
+        <item>New features in the users profile</item>
+        <item>Graphical improvements in devices with larger screen</item>
+        <item>-6.0.1</item>
+        <item>Big changes in user profile</item>
+        <item>View user\'s activities by touching avatar</item>
+        <item>Translate app\'s description by users</item>
+        <item>\"MTN\" and \"Rightel\" SIM card payment</item>
+    </array>
+    <array name="video_error">
+        <item>@string/player_video_error_quality</item>
+        <item>@string/player_video_error_dimension</item>
+        <item>@string/player_video_error_speed</item>
+    </array>
+</resources>

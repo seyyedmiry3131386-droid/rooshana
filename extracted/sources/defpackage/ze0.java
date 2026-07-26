@@ -1,0 +1,61 @@
+package defpackage;
+
+import android.animation.ValueAnimator;
+import android.view.View;
+import android.widget.TextView;
+import com.google.android.material.appbar.CollapsingToolbarLayout;
+import com.google.android.material.bottomsheet.BottomSheetBehavior;
+import com.google.android.material.tabs.TabLayout;
+import com.google.android.material.textfield.TextInputLayout;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class ze0 implements ValueAnimator.AnimatorUpdateListener {
+    public final /* synthetic */ int a;
+    public final /* synthetic */ Object b;
+
+    public /* synthetic */ ze0(int i, Object obj) {
+        this.a = i;
+        this.b = obj;
+    }
+
+    @Override // android.animation.ValueAnimator.AnimatorUpdateListener
+    public final void onAnimationUpdate(ValueAnimator valueAnimator) {
+        switch (this.a) {
+            case 0:
+                float fFloatValue = ((Float) valueAnimator.getAnimatedValue()).floatValue();
+                fk4 fk4Var = ((BottomSheetBehavior) this.b).i;
+                if (fk4Var != null) {
+                    fk4Var.t(fFloatValue);
+                }
+                break;
+            case 1:
+                ((CollapsingToolbarLayout) this.b).setScrimAlpha(((Integer) valueAnimator.getAnimatedValue()).intValue());
+                break;
+            case 2:
+                ((View) this.b).invalidate();
+                break;
+            case 3:
+                int iFloatValue = (int) (((Float) valueAnimator.getAnimatedValue()).floatValue() * 255.0f);
+                y82 y82Var = (y82) this.b;
+                y82Var.c.setAlpha(iFloatValue);
+                y82Var.d.setAlpha(iFloatValue);
+                y82Var.s.invalidate();
+                break;
+            case 4:
+                ((ev7) this.b).invalidateSelf();
+                break;
+            case 5:
+                ((TabLayout) this.b).scrollTo(((Integer) valueAnimator.getAnimatedValue()).intValue(), 0);
+                break;
+            case 6:
+                ((TextInputLayout) this.b).T0.A(((Float) valueAnimator.getAnimatedValue()).floatValue());
+                break;
+            default:
+                float fFloatValue2 = ((Float) valueAnimator.getAnimatedValue()).floatValue();
+                TextView textView = (TextView) this.b;
+                textView.setScaleX(fFloatValue2);
+                textView.setScaleY(fFloatValue2);
+                break;
+        }
+    }
+}

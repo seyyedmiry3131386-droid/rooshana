@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:tag="layout/screen_shot_item_0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.jsibbold.zoomage.ZoomageView
+        android:id="@+id/screen_shot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter"
+        app:zoomage_maxScale="4"
+        app:zoomage_minScale="1"/>
+    <ir.mservices.market.views.LoadingView
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+package io.sentry.android.core;
+
+/* JADX INFO: loaded from: classes3.dex */
+public interface j1 {
+    void a();
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ir.mservices.market.views.MyketTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textSize="@dimen/font_size_medium"
+    android:id="@+id/title"
+    android:tag="layout/holder_new_version_header_0"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/space_8"
+    android:layout_marginTop="@dimen/space_12"
+    android:layout_marginRight="@dimen/space_8"
+    android:minHeight="@dimen/dialog_button_layout_min_height"
+    android:text="@string/myket_new_ver"
+    android:drawablePadding="@dimen/space_8"
+    android:layout_marginHorizontal="@dimen/space_8"
+    style="@style/RtlGravity.Center"/>

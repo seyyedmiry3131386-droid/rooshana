@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:icon="@drawable/ic_game_adaptive_shortcut"
+        android:enabled="true"
+        android:shortcutId="shortcut_app_and_game"
+        android:shortcutShortLabel="@string/shortcut_app_and_game"
+        android:shortcutLongLabel="@string/shortcut_app_and_game"
+        android:shortcutDisabledMessage="@string/shortcut_app_and_game">
+        <intent
+            android:action="ir.mservices.market.SHORTCUTS_ACTION"
+            android:data="shortcut://home/"/>
+        <categories android:name="android.shortcut.conversation"/>
+        <capability-binding android:key="actions.intent.CREATE_MESSAGE"/>
+    </shortcut>
+    <shortcut
+        android:icon="@drawable/ic_movie_adaptive_shortcut"
+        android:enabled="true"
+        android:shortcutId="shortcut_movies_and_series"
+        android:shortcutShortLabel="@string/shortcut_movie_and_series"
+        android:shortcutLongLabel="@string/shortcut_movie_and_series"
+        android:shortcutDisabledMessage="@string/shortcut_movie_and_series">
+        <intent
+            android:action="ir.mservices.market.SHORTCUTS_ACTION"
+            android:data="shortcut://movie/"/>
+        <categories android:name="android.shortcut.conversation"/>
+        <capability-binding android:key="actions.intent.CREATE_MESSAGE"/>
+    </shortcut>
+    <shortcut
+        android:icon="@drawable/ic_search_adaptive_shortcut"
+        android:enabled="true"
+        android:shortcutId="shortcut_search"
+        android:shortcutShortLabel="@string/shortcut_search"
+        android:shortcutLongLabel="@string/shortcut_search"
+        android:shortcutDisabledMessage="@string/shortcut_search">
+        <intent
+            android:action="ir.mservices.market.SHORTCUTS_ACTION"
+            android:data="shortcut://search-app/"/>
+        <categories android:name="android.shortcut.conversation"/>
+        <capability-binding android:key="actions.intent.CREATE_MESSAGE"/>
+    </shortcut>
+    <shortcut
+        android:icon="@drawable/ic_updates_adaptive_shortcut"
+        android:enabled="true"
+        android:shortcutId="shortcut_updates"
+        android:shortcutShortLabel="@string/shortcut_updates"
+        android:shortcutLongLabel="@string/shortcut_updates"
+        android:shortcutDisabledMessage="@string/shortcut_updates">
+        <intent
+            android:action="ir.mservices.market.SHORTCUTS_ACTION"
+            android:data="shortcut://updates/"/>
+        <categories android:name="android.shortcut.conversation"/>
+        <capability-binding android:key="actions.intent.CREATE_MESSAGE"/>
+    </shortcut>
+</shortcuts>

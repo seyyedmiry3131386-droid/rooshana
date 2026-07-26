@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:tag="layout/holder_movie_screenshot_0"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ir.mservices.market.views.ScreenshotView
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/horizontal_space_inner"
+        android:layout_marginRight="@dimen/horizontal_space_inner"
+        android:layout_marginBottom="@dimen/space_m"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <ir.mservices.market.views.MyketTextView
+        android:textSize="@dimen/font_size_super_huge"
+        android:gravity="center"
+        android:id="@+id/more"
+        android:tag="binding_1"
+        android:visibility="gone"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/banner"
+        app:layout_constraintLeft_toLeftOf="@+id/banner"
+        app:layout_constraintRight_toRightOf="@+id/banner"
+        app:layout_constraintTop_toTopOf="@+id/banner"/>
+    <FrameLayout
+        android:id="@+id/clickable_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/banner"
+        app:layout_constraintLeft_toLeftOf="@+id/banner"
+        app:layout_constraintRight_toRightOf="@+id/banner"
+        app:layout_constraintTop_toTopOf="@+id/banner"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

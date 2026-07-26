@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tag="layout/dialog_app_retry_install_0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/layout"
+        style="@style/DialogCornerStyle">
+        <ir.mservices.market.views.DialogHeaderComponent
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <ir.mservices.market.views.MyketTextView
+            android:textSize="@dimen/font_size_large"
+            android:id="@+id/install_description"
+            android:tag="binding_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_default_v2_double"
+            android:layout_marginBottom="@dimen/margin_default_v2_double"
+            android:textAlignment="viewStart"/>
+        <ir.mservices.market.views.DialogButtonComponent
+            android:id="@+id/dialog_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_8"
+            android:layout_marginBottom="@dimen/space_12"/>
+    </LinearLayout>
+</FrameLayout>

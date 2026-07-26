@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tag="layout/holder_screenshot_0"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/horizontal_space_inner"
+    android:layout_marginEnd="@dimen/horizontal_space_inner">
+    <ir.mservices.market.views.ScreenshotView
+        android:id="@+id/screenshot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <FrameLayout
+        android:id="@+id/clickable_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/screenshot"
+        android:layout_alignBottom="@+id/screenshot"/>
+</RelativeLayout>

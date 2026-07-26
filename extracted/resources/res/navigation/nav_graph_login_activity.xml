@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph_login_activity"
+    app:startDestination="@+id/start">
+    <fragment
+        android:name="ir.mservices.market.version2.fragments.StartDestinationFragment"
+        android:id="@+id/start"/>
+    <dialog
+        android:name="ir.mservices.market.login.ui.LoginDialogFragment"
+        android:id="@+id/anyLogin">
+        <argument
+            android:name="data"
+            app:argType="ir.mservices.market.version2.fragments.dialog.DialogDataModel"
+            app:nullable="false"/>
+        <argument
+            android:name="loginData"
+            app:argType="ir.mservices.market.login.data.LoginData"
+            app:nullable="false"/>
+        <action
+            android:id="@+id/toAnyLogin"
+            app:destination="@+id/anyLogin"/>
+    </dialog>
+    <dialog
+        android:name="ir.mservices.market.login.ui.PinLoginDialogFragment"
+        android:id="@+id/pinLogin">
+        <argument
+            android:name="data"
+            app:argType="ir.mservices.market.version2.fragments.dialog.DialogDataModel"
+            app:nullable="false"/>
+        <argument
+            android:name="loginData"
+            app:argType="ir.mservices.market.login.data.LoginData"
+            app:nullable="false"/>
+        <argument
+            android:name="backLoginData"
+            app:argType="ir.mservices.market.login.data.LoginData"
+            app:nullable="false"/>
+        <action
+            android:id="@+id/toPinLogin"
+            app:destination="@+id/pinLogin"/>
+    </dialog>
+</navigation>

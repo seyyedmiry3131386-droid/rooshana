@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="more_streamers_max_span">5</integer>
+    <integer name="movie_list_item">4</integer>
+    <integer name="profile_app_list_more_max_span">5</integer>
+    <integer name="profile_movie_list_more_max_span">4</integer>
+</resources>

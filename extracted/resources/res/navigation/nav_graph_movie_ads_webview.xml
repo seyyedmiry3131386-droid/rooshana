@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph_movie_ads"
+    app:startDestination="@+id/webView">
+    <fragment
+        android:name="ir.mservices.market.webview.WebViewFragment"
+        android:id="@+id/webView">
+        <argument
+            android:name="url"
+            app:argType="string"
+            app:nullable="false"/>
+        <argument
+            android:name="title"
+            app:argType="string"
+            app:nullable="false"/>
+        <argument
+            android:name="shareLink"
+            app:argType="boolean"
+            app:nullable="false"/>
+        <argument
+            android:name="showBottomNavigation"
+            app:argType="boolean"
+            app:nullable="false"/>
+        <argument
+            android:name="openByWebView"
+            app:argType="boolean"
+            app:nullable="false"/>
+        <argument
+            android:name="launchViewIntent"
+            app:argType="boolean"
+            app:nullable="false"/>
+        <argument
+            android:name="finishOnBackPress"
+            app:argType="boolean"
+            app:nullable="false"/>
+    </fragment>
+</navigation>

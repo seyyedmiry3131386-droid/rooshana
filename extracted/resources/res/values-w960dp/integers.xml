@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="movie_banner_list_item">3</integer>
+    <integer name="movie_detail_max_span">2</integer>
+    <integer name="reels_home_page_max_span_large">4</integer>
+    <integer name="reels_home_page_max_span_small">5</integer>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/more_title_content"
+    android:tag="layout/reviews_more_title_view_0"
+    android:paddingLeft="@dimen/horizontal_space_outer"
+    android:paddingTop="@dimen/space_8"
+    android:paddingRight="@dimen/horizontal_space_outer"
+    android:paddingBottom="@dimen/space_8"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_gravity="center"
+        android:paddingLeft="@dimen/horizontal_space_inner"
+        android:paddingRight="@dimen/horizontal_space_inner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ir.mservices.market.views.MyketTextView
+            android:textSize="@dimen/font_size_huge"
+            android:gravity="center"
+            android:id="@+id/section_title"
+            android:tag="binding_1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/space_8"
+            android:layout_toLeftOf="@+id/section_more_title"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            app:bold="true"/>
+        <ir.mservices.market.views.SmallBoldTextButton
+            android:id="@+id/section_more_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/more"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+</FrameLayout>

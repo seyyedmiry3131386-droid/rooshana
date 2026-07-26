@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="actionbar_end_space">36dp</dimen>
+    <dimen name="actionbar_start_space">36dp</dimen>
+    <dimen name="app_card_count">5</dimen>
+    <dimen name="app_info_height_factor">5</dimen>
+    <dimen name="intro_image_size">250dp</dimen>
+    <dimen name="large_movie_banner_card_count">2</dimen>
+    <dimen name="large_movie_card_count">4</dimen>
+    <dimen name="medium_movie_banner_card_count">2.5</dimen>
+    <dimen name="medium_movie_card_count">4</dimen>
+    <dimen name="movie_detail_top_offset_scrolling">16dp</dimen>
+    <dimen name="movie_play_button_width">324dp</dimen>
+    <dimen name="movie_tab_width">196dp</dimen>
+    <dimen name="multi_app_card_count">2</dimen>
+    <dimen name="other_streamers_card_count">5</dimen>
+    <dimen name="player_controller_icon_size">40dp</dimen>
+    <dimen name="search_movie_card_count">4</dimen>
+    <dimen name="single_movie_banner_height">248dp</dimen>
+    <dimen name="single_movie_banner_width">440dp</dimen>
+    <dimen name="small_movie_banner_card_count">3</dimen>
+    <dimen name="small_movie_card_count">4</dimen>
+    <dimen name="summary_item_size">128dp</dimen>
+    <dimen name="user_card_count">5</dimen>
+    <dimen name="vertical_movie_tab_width">196dp</dimen>
+</resources>

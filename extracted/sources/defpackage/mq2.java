@@ -1,0 +1,121 @@
+package defpackage;
+
+import android.view.View;
+import android.widget.ImageView;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
+import ir.mservices.market.views.AppIconView;
+import ir.mservices.market.views.DialogButtonComponent;
+import ir.mservices.market.views.MyketTextView;
+import ir.mservices.market.views.PaymentPriceView;
+
+/* JADX INFO: loaded from: classes3.dex */
+public final class mq2 {
+    public final View a;
+    public final DialogButtonComponent b;
+    public final MyketTextView c;
+    public final RecyclerView d;
+    public final ImageView e;
+    public final ImageView f;
+    public final AppIconView g;
+    public final ConstraintLayout h;
+    public final MyketTextView i;
+    public final ImageView j;
+    public final MyketTextView k;
+    public final View l;
+    public final View m;
+    public final MyketTextView n;
+    public final PaymentPriceView o;
+    public final MyketTextView p;
+
+    public mq2(d46 d46Var) {
+        View view = d46Var.l;
+        js3.o(view, "getRoot(...)");
+        this.a = view;
+        DialogButtonComponent dialogButtonComponent = d46Var.x;
+        js3.o(dialogButtonComponent, "dialogButton");
+        this.b = dialogButtonComponent;
+        this.c = d46Var.C;
+        RecyclerView recyclerView = d46Var.J;
+        js3.o(recyclerView, "recyclerView");
+        this.d = recyclerView;
+        ImageView imageView = d46Var.G;
+        js3.o(imageView, "logo");
+        this.e = imageView;
+        ImageView imageView2 = d46Var.H;
+        js3.o(imageView2, "logoType");
+        this.f = imageView2;
+        AppIconView appIconView = d46Var.v;
+        js3.o(appIconView, "appIcon");
+        this.g = appIconView;
+        ConstraintLayout constraintLayout = d46Var.y;
+        js3.o(constraintLayout, "discount");
+        this.h = constraintLayout;
+        MyketTextView myketTextView = d46Var.w;
+        js3.o(myketTextView, "appTitle");
+        this.i = myketTextView;
+        ImageView imageView3 = d46Var.z;
+        js3.o(imageView3, "discountBadge");
+        this.j = imageView3;
+        MyketTextView myketTextView2 = d46Var.A;
+        js3.o(myketTextView2, "discountTitle");
+        this.k = myketTextView2;
+        this.l = d46Var.B;
+        this.m = d46Var.E;
+        MyketTextView myketTextView3 = d46Var.D;
+        js3.o(myketTextView3, "guarantee");
+        this.n = myketTextView3;
+        js3.o(d46Var.F, "layout");
+        PaymentPriceView paymentPriceView = d46Var.I;
+        js3.o(paymentPriceView, "paymentPrice");
+        this.o = paymentPriceView;
+        MyketTextView myketTextView4 = d46Var.K;
+        js3.o(myketTextView4, "sdkVersion");
+        this.p = myketTextView4;
+    }
+
+    public mq2(g46 g46Var) {
+        View view = g46Var.l;
+        js3.o(view, "getRoot(...)");
+        this.a = view;
+        DialogButtonComponent dialogButtonComponent = g46Var.x;
+        js3.o(dialogButtonComponent, "dialogButton");
+        this.b = dialogButtonComponent;
+        RecyclerView recyclerView = g46Var.J;
+        js3.o(recyclerView, "recyclerView");
+        this.d = recyclerView;
+        ImageView imageView = g46Var.F;
+        js3.o(imageView, "logo");
+        this.e = imageView;
+        ImageView imageView2 = g46Var.G;
+        js3.o(imageView2, "logoType");
+        this.f = imageView2;
+        AppIconView appIconView = g46Var.v;
+        js3.o(appIconView, "appIcon");
+        this.g = appIconView;
+        ConstraintLayout constraintLayout = g46Var.y;
+        js3.o(constraintLayout, "discount");
+        this.h = constraintLayout;
+        MyketTextView myketTextView = g46Var.w;
+        js3.o(myketTextView, "appTitle");
+        this.i = myketTextView;
+        ImageView imageView3 = g46Var.z;
+        js3.o(imageView3, "discountBadge");
+        this.j = imageView3;
+        MyketTextView myketTextView2 = g46Var.A;
+        js3.o(myketTextView2, "discountTitle");
+        this.k = myketTextView2;
+        this.m = g46Var.D;
+        MyketTextView myketTextView3 = g46Var.C;
+        js3.o(myketTextView3, "guarantee");
+        this.n = myketTextView3;
+        js3.o(g46Var.E, "layout");
+        PaymentPriceView paymentPriceView = g46Var.H;
+        js3.o(paymentPriceView, "paymentPrice");
+        this.o = paymentPriceView;
+        this.c = null;
+        MyketTextView myketTextView4 = g46Var.K;
+        js3.o(myketTextView4, "sdkVersion");
+        this.p = myketTextView4;
+    }
+}

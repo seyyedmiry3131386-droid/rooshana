@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:myket="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/ic_night_mode"
+        android:id="@+id/action_night_mode"
+        android:title="@string/night_mode"
+        myket:showAsAction="always"/>
+    <item
+        android:icon="@drawable/ic_mymarket_setting"
+        android:id="@+id/action_setting"
+        android:title="@string/settings"
+        myket:showAsAction="always"/>
+</menu>

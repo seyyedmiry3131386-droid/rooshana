@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layoutDirection="locale">
+    <ir.mservices.market.views.MyketTextView
+        android:textSize="@dimen/font_size_small"
+        android:gravity="center_vertical"
+        android:id="@+id/real_price"
+        android:tag="layout/view_payment_price_0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/payment_price"
+        android:layout_alignBottom="@+id/payment_price"
+        android:layout_marginEnd="@dimen/margin_default_v2_half"
+        android:layout_alignParentStart="true"/>
+    <ir.mservices.market.views.MyketTextView
+        android:textSize="@dimen/font_size_medium"
+        android:id="@+id/payment_price"
+        android:tag="layout/view_payment_price_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/real_price"/>
+</merge>

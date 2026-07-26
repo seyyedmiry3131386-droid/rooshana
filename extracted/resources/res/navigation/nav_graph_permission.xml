@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" app:startDestination="@+id/start">
+    <fragment
+        android:name="ir.mservices.market.version2.fragments.StartDestinationFragment"
+        android:id="@+id/start"/>
+    <dialog
+        android:name="ir.mservices.market.version2.fragments.dialog.PermissionReasonDialogFragment"
+        android:id="@+id/permissionReasonDialog">
+        <argument
+            android:name="data"
+            app:argType="ir.mservices.market.version2.fragments.dialog.DialogDataModel"
+            app:nullable="false"/>
+        <argument
+            android:name="lastWord"
+            app:argType="boolean"
+            app:nullable="false"/>
+        <argument
+            android:name="permissionReason"
+            app:argType="ir.mservices.market.data.permission.PermissionReason"
+            app:nullable="false"/>
+        <action
+            android:id="@+id/toPermissionReasonDialog"
+            app:destination="@+id/permissionReasonDialog"/>
+    </dialog>
+</navigation>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_layout"
+    android:tag="layout/full_screenshot_0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ir.mservices.market.views.ExtendedViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"/>
+    <me.relex.circleindicator.CircleIndicator
+        android:id="@+id/indicator"
+        android:tag="binding_1"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/margin_default_v2_double"
+        android:layout_marginBottom="@dimen/margin_default_v2_triple"
+        app:ci_animator="@anim/circle_indicator_anim"
+        app:ci_drawable="@drawable/circle_indicator_select"
+        app:ci_drawable_unselected="@drawable/circle_indicator_unselect"
+        app:ci_height="@dimen/margin_default_v2_half"
+        app:ci_margin="@dimen/margin_default_v2_half"
+        app:ci_width="@dimen/margin_default_v2_half"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+    <ImageView
+        android:id="@+id/arrow_left"
+        android:layout_width="@dimen/screenshot_arrow_size"
+        android:layout_height="@dimen/screenshot_arrow_size"
+        android:layout_marginLeft="@dimen/margin_default_v2_oneHalf"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <ImageView
+        android:id="@+id/arrow_right"
+        android:layout_width="@dimen/screenshot_arrow_size"
+        android:layout_height="@dimen/screenshot_arrow_size"
+        android:layout_marginRight="@dimen/margin_default_v2_oneHalf"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

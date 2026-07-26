@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:tag="layout/footer_row_vertical_0"
+    android:paddingTop="@dimen/margin_default_v2"
+    android:paddingBottom="@dimen/margin_default_v2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/recycler_view_horizontal_padding"
+    android:layout_marginRight="@dimen/recycler_view_horizontal_padding">
+    <com.google.android.material.loadingindicator.LoadingIndicator
+        android:id="@+id/progress_loading"
+        android:tag="binding_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        style="@style/Widget.Material3.LoadingIndicator.Contained"/>
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:id="@+id/retry_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        <ir.mservices.market.views.MyketTextView
+            android:textSize="@dimen/font_size_medium"
+            android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/error_message"
+            android:tag="binding_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"/>
+        <ir.mservices.market.views.SmallFillOvalButton
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/refresh"
+            android:visibility="visible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_default_v2_oneHalf"
+            app:pb_text="@string/retry"/>
+    </LinearLayout>
+</RelativeLayout>

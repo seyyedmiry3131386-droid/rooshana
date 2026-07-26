@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/layout"
+    android:tag="layout/dialog_app_progress_0"
+    style="@style/DialogCornerStyle">
+    <ir.mservices.market.views.DialogHeaderComponent
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_8"
+        android:layout_marginBottom="@dimen/space_8"
+        android:layout_marginVertical="@dimen/space_8"/>
+    <ir.mservices.market.views.MyketTextView
+        android:textSize="@dimen/font_size_large"
+        android:id="@+id/install_description"
+        android:tag="binding_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_8"
+        android:layout_marginBottom="@dimen/space_8"
+        android:text="@string/installing"
+        android:layout_marginVertical="@dimen/space_8"/>
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        android:id="@+id/progressIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/linear_progress_height"
+        android:layout_marginTop="@dimen/space_8"
+        android:layout_marginBottom="@dimen/space_8"
+        android:indeterminate="true"
+        android:indeterminateOnly="true"
+        android:layout_marginVertical="@dimen/space_8"
+        app:indicatorTrackGapSize="0dp"
+        app:trackCornerRadius="@dimen/space_2"
+        app:trackInnerCornerRadius="0dp"
+        app:trackThickness="@dimen/linear_progress_height"/>
+    <ir.mservices.market.views.DialogButtonLayout
+        android:id="@+id/buttons"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_20"
+        android:layout_marginBottom="@dimen/space_12"/>
+</LinearLayout>

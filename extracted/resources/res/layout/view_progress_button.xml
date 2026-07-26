@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:tag="layout/view_progress_button_0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_gravity="center"
+        android:id="@+id/animation_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_gravity="center_vertical"
+            android:id="@+id/animation"
+            android:layout_width="@dimen/button_progress_size"
+            android:layout_height="@dimen/button_progress_size"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"/>
+        <ir.mservices.market.views.MyketTextView
+            android:ellipsize="end"
+            android:gravity="start|center_vertical"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/animation_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:includeFontPadding="false"
+            app:bold="true"/>
+    </LinearLayout>
+    <ir.mservices.market.views.MyketTextView
+        android:ellipsize="end"
+        android:gravity="start|center_vertical"
+        android:layout_gravity="center"
+        android:id="@+id/myket_progress_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:includeFontPadding="false"
+        app:bold="true"/>
+    <ir.mservices.market.views.LoadingView
+        android:layout_gravity="center"
+        android:id="@+id/loading"
+        android:visibility="gone"
+        android:layout_width="@dimen/button_progress_size"
+        android:layout_height="@dimen/button_progress_size"
+        android:layout_marginLeft="@dimen/margin_default_v2_double"
+        android:layout_marginRight="@dimen/margin_default_v2_double"/>
+</FrameLayout>

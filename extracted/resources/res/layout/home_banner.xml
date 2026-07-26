@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content"
+    android:tag="layout/home_banner_0"
+    android:paddingLeft="@dimen/horizontal_space_inner"
+    android:paddingTop="@dimen/space_m"
+    android:paddingRight="@dimen/horizontal_space_inner"
+    android:paddingBottom="@dimen/space_m"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/horizontal_space_outer"
+    android:layout_marginRight="@dimen/horizontal_space_outer"
+    android:layout_marginHorizontal="@dimen/horizontal_space_outer"
+    android:paddingHorizontal="@dimen/horizontal_space_inner"
+    android:paddingVertical="@dimen/space_m">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/banner_layout"
+        android:tag="binding_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="@dimen/default_image_corner_radius"
+        app:cardElevation="@dimen/card_elevation">
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/banner_icon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"/>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

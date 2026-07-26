@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tag="layout/holder_home_top_banner_0"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.viewpager.widget.TouchViewPager
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/banner_view_pager"
+        android:paddingLeft="@dimen/recycler_view_horizontal_padding"
+        android:paddingRight="@dimen/recycler_view_horizontal_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"/>
+</RelativeLayout>

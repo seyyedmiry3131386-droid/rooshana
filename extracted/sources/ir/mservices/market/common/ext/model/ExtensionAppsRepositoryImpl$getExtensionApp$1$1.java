@@ -1,0 +1,65 @@
+package ir.mservices.market.common.ext.model;
+
+import com.google.gson.reflect.TypeToken;
+import defpackage.dp2;
+import defpackage.dy3;
+import defpackage.g51;
+import defpackage.js3;
+import defpackage.n72;
+import defpackage.tb1;
+import defpackage.tx8;
+import defpackage.wv8;
+import defpackage.z57;
+import ir.mservices.market.app.home.HomeViewModel;
+import ir.mservices.market.app.home.data.ExtensionHomeAppDto;
+import java.lang.reflect.Type;
+import kotlin.coroutines.intrinsics.CoroutineSingletons;
+import kotlin.coroutines.jvm.internal.SuspendLambda;
+
+/* JADX INFO: loaded from: classes3.dex */
+@tb1(c = "ir.mservices.market.common.ext.model.ExtensionAppsRepositoryImpl$getExtensionApp$1$1", f = "ExtensionAppsRepositoryImpl.kt", l = {117}, m = "invokeSuspend", v = 1)
+final class ExtensionAppsRepositoryImpl$getExtensionApp$1$1 extends SuspendLambda implements dp2 {
+    public int a;
+    public final /* synthetic */ wv8 b;
+    public final /* synthetic */ String c;
+    public final /* synthetic */ HomeViewModel d;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public ExtensionAppsRepositoryImpl$getExtensionApp$1$1(wv8 wv8Var, String str, HomeViewModel homeViewModel, g51 g51Var) {
+        super(1, g51Var);
+        this.b = wv8Var;
+        this.c = str;
+        this.d = homeViewModel;
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final g51 create(g51 g51Var) {
+        return new ExtensionAppsRepositoryImpl$getExtensionApp$1$1(this.b, this.c, this.d, g51Var);
+    }
+
+    @Override // defpackage.dp2
+    public final Object invoke(Object obj) {
+        return ((ExtensionAppsRepositoryImpl$getExtensionApp$1$1) create((g51) obj)).invokeSuspend(tx8.a);
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final Object invokeSuspend(Object obj) {
+        CoroutineSingletons coroutineSingletons = CoroutineSingletons.a;
+        int i = this.a;
+        if (i != 0) {
+            if (i != 1) {
+                throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
+            }
+            kotlin.b.b(obj);
+            return obj;
+        }
+        kotlin.b.b(obj);
+        n72 n72Var = (n72) this.b.b;
+        this.a = 1;
+        Type type = new TypeToken<ExtensionHomeAppDto>() { // from class: ir.mservices.market.common.service.ExtensionService$getExtensionApp$2
+        }.getType();
+        js3.o(type, "getType(...)");
+        Object objV = dy3.v(n72Var, type, new z57(this.c), this.d, this, 504);
+        return objV == coroutineSingletons ? coroutineSingletons : objV;
+    }
+}

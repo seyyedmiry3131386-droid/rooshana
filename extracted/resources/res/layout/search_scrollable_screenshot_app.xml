@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:tag="layout/search_scrollable_screenshot_app_0"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:tag="binding_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/horizontal_space_outer"
+            android:layout_marginTop="@dimen/space_8"
+            android:layout_marginRight="@dimen/horizontal_space_outer"
+            android:layout_marginBottom="@dimen/space_8"
+            layout="@layout/special_main_card"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card_view"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_default_v2_oneHalf"
+            android:layout_below="@+id/recycler_view"/>
+    </RelativeLayout>
+</FrameLayout>

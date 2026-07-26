@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ir.mservices.market.views.MyketTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textSize="@dimen/font_size_medium"
+    android:ellipsize="end"
+    android:gravity="center"
+    android:id="@+id/tag_view"
+    android:tag="layout/tag_view_0"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:maxWidth="@dimen/tag_maximum_width"
+    android:minWidth="@dimen/tag_minimum_width"
+    android:maxLines="1"/>

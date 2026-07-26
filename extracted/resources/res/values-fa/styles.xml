@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="RtlGravity" parent="">
+        <item name="android:gravity">0x5</item>
+    </style>
+    <style name="RtlGravity.Center" parent="@style/RtlGravity">
+        <item name="android:gravity">0x15</item>
+    </style>
+    <style name="SideNavigationPosition" parent="@style/NavigationMenuStyle">
+        <item name="android:layout_gravity">0x800005</item>
+    </style>
+    <style name="SideShadowGravity" parent="">
+        <item name="android:layout_gravity">0x800005</item>
+        <item name="android:layout_marginEnd">@dimen/side_navigation_margin</item>
+    </style>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:tag="layout/city_header_0"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/space_8"
+    android:layout_marginBottom="@dimen/space_8"
+    android:paddingStart="@dimen/horizontal_space_outer"
+    android:paddingEnd="@dimen/horizontal_space_outer">
+    <ir.mservices.market.views.MyketInputLayout
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_12"
+        android:layout_marginStart="@dimen/horizontal_space_inner"
+        android:layout_marginEnd="@dimen/horizontal_space_inner"
+        app:boxBackgroundMode="outline"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <ir.mservices.market.views.BindAutoCompleteView
+            android:textSize="@dimen/font_size_large"
+            android:gravity="bottom"
+            android:id="@+id/city"
+            android:tag="binding_1"
+            android:paddingLeft="@dimen/space_8"
+            android:paddingTop="@dimen/space_16"
+            android:paddingRight="@dimen/space_8"
+            android:paddingBottom="@dimen/space_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/search_city"
+            android:drawablePadding="@dimen/space_4"
+            android:inputType="text"
+            android:textSelectHandleLeft="@drawable/search_select_handle_left"
+            android:textSelectHandleRight="@drawable/search_select_handle_right"
+            android:textSelectHandle="@drawable/search_select_handle_middle"
+            android:textDirection="rtl"/>
+    </ir.mservices.market.views.MyketInputLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

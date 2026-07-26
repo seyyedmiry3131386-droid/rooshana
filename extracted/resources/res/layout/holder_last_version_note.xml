@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:tag="layout/holder_last_version_note_0"
+    android:background="@drawable/shape_ver_note"
+    android:paddingLeft="@dimen/space_12"
+    android:paddingTop="@dimen/space_8"
+    android:paddingRight="@dimen/space_12"
+    android:paddingBottom="@dimen/space_12"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="@dimen/space_12">
+    <ir.mservices.market.views.MyketTextView
+        android:textSize="@dimen/font_size_large"
+        android:id="@+id/title"
+        android:tag="binding_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/dialog_button_layout_min_height"
+        android:layout_alignParentTop="true"
+        style="@style/RtlGravity.Center"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"/>
+</RelativeLayout>

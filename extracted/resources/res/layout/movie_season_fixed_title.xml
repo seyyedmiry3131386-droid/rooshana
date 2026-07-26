@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:tag="layout/movie_season_fixed_title_0"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="locale">
+    <View
+        android:id="@+id/bg_content"
+        android:tag="binding_1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/label"
+        app:layout_constraintTop_toTopOf="@+id/label"/>
+    <ir.mservices.market.views.MyketTextView
+        android:textSize="@dimen/font_size_huge"
+        android:id="@+id/label"
+        android:tag="binding_2"
+        android:paddingTop="@dimen/space_16"
+        android:paddingBottom="@dimen/space_12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:bold="true"
+        app:layout_constraintStart_toStartOf="@+id/bg_content"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <ir.mservices.market.views.MyketTextView
+        android:textSize="@dimen/font_size_medium"
+        android:gravity="center"
+        android:id="@+id/title"
+        android:tag="binding_3"
+        android:paddingLeft="@dimen/space_12"
+        android:paddingRight="@dimen/space_12"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/chip_view_height"
+        android:minHeight="@dimen/chip_view_height"
+        android:drawablePadding="@dimen/space_8"
+        android:paddingHorizontal="@dimen/space_12"
+        app:layout_constraintBottom_toBottomOf="@+id/label"
+        app:layout_constraintEnd_toEndOf="@+id/bg_content"
+        app:layout_constraintTop_toTopOf="@+id/label"/>
+    <View
+        android:id="@+id/shadow"
+        android:background="@drawable/toolbar_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/bg_content"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

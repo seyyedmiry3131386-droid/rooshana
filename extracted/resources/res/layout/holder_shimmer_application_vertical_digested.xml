@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/default_view"
+    android:tag="layout/holder_shimmer_application_vertical_digested_0"
+    android:paddingTop="@dimen/space_m"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/horizontal_space_inner"
+    android:paddingEnd="@dimen/space_12">
+    <ir.mservices.market.views.AlphaAnimationView
+        android:id="@+id/default_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_m"
+        app:layout_constraintBottom_toTopOf="@+id/default_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <ir.mservices.market.views.AlphaAnimationView
+        android:id="@+id/default_title"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/space_xl"
+        app:layout_constraintBottom_toTopOf="@+id/default_title_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/default_icon"/>
+    <ir.mservices.market.views.AlphaAnimationView
+        android:id="@+id/default_title_2"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/space_xl"
+        android:layout_marginTop="@dimen/space_8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/default_title"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/content"
+    android:tag="layout/home_video_digested_row_0"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingEnd="@dimen/item_space">
+    <ir.mservices.market.views.MyketVideoView
+        android:id="@+id/video_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/horizontal_space_inner"
+        android:layout_marginTop="@dimen/space_m"
+        android:layout_marginRight="@dimen/horizontal_space_inner"
+        android:layout_marginBottom="@dimen/space_m"
+        app:cardCornerRadius="@dimen/default_image_corner_radius"/>
+    <include
+        android:id="@+id/app_view"
+        layout="@layout/multi_app_card_digested"/>
+</LinearLayout>

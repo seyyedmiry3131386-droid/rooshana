@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:tag="layout/feedback_phone_number_item_0"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ir.mservices.market.views.MyketEditText
+        android:textSize="@dimen/font_size_large"
+        android:id="@+id/feedback_phone_edit_text"
+        android:tag="binding_1"
+        android:background="@null"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/min_input_height"
+        android:hint="@string/feedback_phone"
+        android:inputType="phone"
+        android:imeOptions="actionNext"
+        android:textSelectHandleLeft="@drawable/search_select_handle_left"
+        android:textSelectHandleRight="@drawable/search_select_handle_right"
+        android:textSelectHandle="@drawable/search_select_handle_middle"
+        android:textAlignment="viewStart"
+        app:has_background="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

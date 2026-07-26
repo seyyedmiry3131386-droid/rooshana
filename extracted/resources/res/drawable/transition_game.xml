@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/_transition_game__0_res_0x7f080043">
+    <target
+        android:name="_R_G_L_2_G_T_1"
+        android:animation="@drawable/_transition_game__1_res_0x7f080044"/>
+    <target
+        android:name="_R_G_L_2_G_T_1"
+        android:animation="@drawable/_transition_game__5_res_0x7f08004b"/>
+    <target
+        android:name="_R_G_L_1_G"
+        android:animation="@drawable/_transition_game__10_res_0x7f080045"/>
+    <target
+        android:name="_R_G_L_0_G"
+        android:animation="@drawable/_transition_game__11_res_0x7f080046"/>
+    <target
+        android:name="time_group"
+        android:animation="@drawable/_transition_game__12_res_0x7f080047"/>
+</animated-vector>

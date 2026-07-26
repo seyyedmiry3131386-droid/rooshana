@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:tag="layout/myket_social_module_0"
+    android:paddingTop="@dimen/space_24"
+    android:paddingBottom="@dimen/space_24"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="locale"
+    android:paddingStart="@dimen/space_16"
+    android:paddingEnd="@dimen/space_16">
+    <ImageView
+        android:id="@+id/instagram"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/insta_selector"
+        android:layout_marginEnd="@dimen/space_4"/>
+    <ImageView
+        android:id="@+id/telegram"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/telegram_selector"
+        android:layout_marginEnd="@dimen/space_4"/>
+</LinearLayout>

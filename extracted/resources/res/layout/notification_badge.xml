@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:tag="layout/notification_badge_0"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/icon"
+        android:tag="binding_1"
+        android:padding="@dimen/space_12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_notifications_button"/>
+    <View
+        android:layout_gravity="center"
+        android:id="@+id/badge"
+        android:background="@drawable/badge"
+        android:layout_width="@dimen/space_8"
+        android:layout_height="@dimen/space_8"
+        android:layout_marginLeft="@dimen/space_8"
+        android:layout_marginBottom="@dimen/space_8"/>
+</FrameLayout>

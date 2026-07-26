@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:tag="layout-fa/holder_search_app_0"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/suggestion_height">
+    <RelativeLayout
+        android:tag="binding_1"
+        android:paddingLeft="@dimen/margin_default_v2_double"
+        android:paddingTop="@dimen/margin_default_v2"
+        android:paddingRight="@dimen/margin_default_v2_double"
+        android:paddingBottom="@dimen/margin_default_v2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ir.mservices.market.views.AppIconView
+            android:id="@+id/app_icon"
+            android:layout_width="@dimen/search_app_icon"
+            android:layout_height="@dimen/search_app_icon"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            app:app_framed="false"/>
+        <ir.mservices.market.views.MyketTextView
+            android:textSize="@dimen/font_size_large"
+            android:id="@+id/title"
+            android:tag="binding_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_default_v2_oneHalf"
+            android:layout_toLeftOf="@+id/app_icon"
+            android:layout_centerVertical="true"
+            style="@style/RtlGravity.Center"/>
+    </RelativeLayout>
+</FrameLayout>

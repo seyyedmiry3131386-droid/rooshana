@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:tag="layout/movie_detail_tab_view_0"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/movie_detail_tab_height"
+    android:layoutDirection="locale">
+    <View
+        android:id="@+id/bg_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/shadow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <FrameLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <ir.mservices.market.views.MovieTabView
+            android:id="@+id/tabs"
+            android:tag="binding_1"
+            android:longClickable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="36dp"
+            app:orientation="horizontal"
+            app:tabGravity="fill"
+            app:tabInlineLabel="true"
+            app:tabMode="scrollable"
+            app:tabPaddingEnd="@dimen/space_2xl"
+            app:tabPaddingStart="@dimen/space_2xl"
+            app:tabTextAppearance="@style/MyDefaultStyle.TabTextAppearance"/>
+    </FrameLayout>
+    <ImageView
+        android:id="@+id/shadow"
+        android:background="@drawable/toolbar_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tab_layout"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:shareInterpolator="false">
+    <translate
+        android:interpolator="@anim/standard_spatial_interpolator"
+        android:duration="@integer/standard_fast_spatial_duration"
+        android:fromXDelta="0%"
+        android:toXDelta="-10%"/>
+    <alpha
+        android:interpolator="@anim/standard_fast_effects_interpolator"
+        android:duration="@integer/standard_fast_effects_duration"
+        android:fromAlpha="1"
+        android:toAlpha="0"/>
+</set>

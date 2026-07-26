@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:id="@+id/layout"
+    android:tag="layout/movie_tag_view_0"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <FrameLayout
+        android:id="@+id/tag_view"
+        android:padding="@dimen/space_4"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/tag_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/movie_tag_icon_size"
+            android:adjustViewBounds="true"
+            android:minWidth="@dimen/movie_tag_icon_size"/>
+    </FrameLayout>
+    <ir.mservices.market.views.MyketTextView
+        android:textSize="@dimen/font_size_normal"
+        android:gravity="center"
+        android:id="@+id/tag_text"
+        android:paddingLeft="@dimen/space_8"
+        android:paddingRight="@dimen/space_8"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingHorizontal="@dimen/space_8"/>
+</LinearLayout>

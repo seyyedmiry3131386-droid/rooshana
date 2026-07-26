@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:tag="layout/feedback_body_edit_text_item_0"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ir.mservices.market.views.MyketEditText
+        android:textSize="@dimen/font_size_large"
+        android:gravity="start|top"
+        android:id="@+id/feedback_body_edit_text"
+        android:tag="binding_1"
+        android:background="@null"
+        android:paddingTop="@dimen/space_4"
+        android:paddingBottom="@dimen/space_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/feedback_txt"
+        android:minLines="8"
+        android:textSelectHandleLeft="@drawable/search_select_handle_left"
+        android:textSelectHandleRight="@drawable/search_select_handle_right"
+        android:textSelectHandle="@drawable/search_select_handle_middle"
+        app:has_background="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <ir.mservices.market.views.MyketTextView
+        android:textSize="@dimen/font_size_normal"
+        android:id="@+id/error_txt"
+        android:tag="binding_2"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_4"
+        android:text="@string/feedback_error"
+        android:textAlignment="viewStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/feedback_body_edit_text"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

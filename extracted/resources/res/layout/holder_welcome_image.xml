@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:tag="layout/holder_welcome_image_0"
+    android:paddingLeft="@dimen/horizontal_space_outer"
+    android:paddingRight="@dimen/horizontal_space_outer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="@dimen/horizontal_space_outer">
+    <ir.mservices.market.views.MyketTextView
+        android:textSize="@dimen/font_size_large"
+        android:id="@+id/title"
+        android:tag="binding_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_image_title"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <ImageView
+        android:id="@+id/user_icon"
+        android:layout_width="@dimen/welcome_user_icon_size"
+        android:layout_height="@dimen/welcome_user_icon_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title"/>
+    <ImageView
+        android:id="@+id/camera_icon"
+        android:background="@drawable/white_circle_shape"
+        android:padding="@dimen/space_4"
+        android:layout_width="@dimen/welcome_camera_size"
+        android:layout_height="@dimen/welcome_camera_size"
+        android:layoutDirection="ltr"
+        app:layout_constraintBottom_toBottomOf="@+id/user_icon"
+        app:layout_constraintLeft_toLeftOf="@+id/user_icon"
+        app:srcCompat="@drawable/ic_camera"/>
+    <ir.mservices.market.views.LoadingView
+        android:id="@+id/avatar_progress_loading"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/user_icon"
+        app:layout_constraintEnd_toEndOf="@+id/user_icon"
+        app:layout_constraintStart_toStartOf="@+id/user_icon"
+        app:layout_constraintTop_toTopOf="@+id/user_icon"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" app:startDestination="@+id/start">
+    <fragment
+        android:name="ir.mservices.market.version2.fragments.StartDestinationFragment"
+        android:id="@+id/start"/>
+    <dialog
+        android:name="ir.mservices.market.version2.fragments.dialog.DocumentFilePermissionDialogFragment"
+        android:id="@+id/documentFilePermissionDialog">
+        <argument
+            android:name="data"
+            app:argType="ir.mservices.market.version2.fragments.dialog.DialogDataModel"
+            app:nullable="false"/>
+        <action
+            android:id="@+id/toDocumentFilePermissionDialog"
+            app:destination="@+id/documentFilePermissionDialog"/>
+    </dialog>
+</navigation>

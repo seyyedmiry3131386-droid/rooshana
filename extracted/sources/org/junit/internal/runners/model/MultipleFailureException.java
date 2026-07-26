@@ -1,0 +1,7 @@
+package org.junit.internal.runners.model;
+
+/* JADX INFO: loaded from: classes3.dex */
+@Deprecated
+public class MultipleFailureException extends org.junit.runners.model.MultipleFailureException {
+    private static final long serialVersionUID = 1;
+}

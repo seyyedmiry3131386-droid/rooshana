@@ -1,0 +1,41 @@
+package kotlinx.coroutines.channels;
+
+import defpackage.tb1;
+import kotlin.coroutines.intrinsics.CoroutineSingletons;
+import kotlin.coroutines.jvm.internal.ContinuationImpl;
+
+/* JADX INFO: loaded from: classes3.dex */
+@tb1(c = "kotlinx.coroutines.channels.ChannelsKt__DeprecatedKt", f = "Deprecated.kt", l = {105}, m = "firstOrNull")
+final class ChannelsKt__DeprecatedKt$firstOrNull$1<E> extends ContinuationImpl {
+    public /* synthetic */ Object a;
+    public int b;
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final Object invokeSuspend(Object obj) {
+        this.a = obj;
+        int i = (this.b | Integer.MIN_VALUE) - Integer.MIN_VALUE;
+        this.b = i;
+        CoroutineSingletons coroutineSingletons = CoroutineSingletons.a;
+        try {
+            if (i == 0) {
+                kotlin.b.b(obj);
+                throw null;
+            }
+            if (i != 1) {
+                throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
+            }
+            kotlin.b.b(obj);
+            if (((Boolean) obj).booleanValue()) {
+                throw null;
+            }
+            throw null;
+        } catch (Throwable th) {
+            try {
+                throw th;
+            } catch (Throwable th2) {
+                b.b(null, th);
+                throw th2;
+            }
+        }
+    }
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:tag="layout/popup_window_0"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/suggestion_height"
+    android:paddingStart="@dimen/horizontal_space_outer"
+    android:paddingEnd="@dimen/horizontal_space_outer">
+    <RelativeLayout
+        android:tag="binding_1"
+        android:paddingTop="@dimen/margin_default_v2"
+        android:paddingBottom="@dimen/margin_default_v2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/horizontal_space_inner"
+        android:paddingEnd="@dimen/horizontal_space_inner">
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/margin_default_v2"
+            android:layout_alignParentStart="true"/>
+        <ir.mservices.market.views.MyketTextView
+            android:textSize="@dimen/font_size_large"
+            android:id="@+id/title"
+            android:tag="binding_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/margin_default_v2_double"
+            android:layout_toStartOf="@+id/remove"
+            android:layout_toEndOf="@+id/icon"
+            style="@style/RtlGravity.Center"/>
+        <ImageView
+            android:id="@+id/remove"
+            android:tag="binding_3"
+            android:padding="@dimen/margin_default_v2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="center"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/margin_default_v2"
+            android:layout_alignParentEnd="true"
+            app:srcCompat="@drawable/ic_action_close"/>
+    </RelativeLayout>
+</FrameLayout>

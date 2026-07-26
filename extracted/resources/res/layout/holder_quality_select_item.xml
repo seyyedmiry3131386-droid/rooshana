@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:tag="layout/holder_quality_select_item_0"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ir.mservices.market.views.MyketTextView
+        android:textSize="@dimen/font_size_large"
+        android:id="@+id/title"
+        android:tag="binding_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        app:bold="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <ir.mservices.market.views.MyketTextView
+        android:textSize="@dimen/font_size_normal"
+        android:id="@+id/description"
+        android:tag="binding_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title"/>
+    <ir.mservices.market.views.LoadingView
+        android:id="@+id/download"
+        android:layout_width="@dimen/big_button_height"
+        android:layout_height="@dimen/big_button_height"
+        android:max="100"
+        android:progress="0"
+        android:indeterminate="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_goneMarginBottom="@dimen/space_2xl"/>
+    <ImageView
+        android:id="@+id/download_icon"
+        android:layout_width="@dimen/big_button_height"
+        android:layout_height="@dimen/big_button_height"
+        app:layout_constraintBottom_toBottomOf="@+id/download"
+        app:layout_constraintEnd_toEndOf="@+id/download"
+        app:layout_constraintStart_toStartOf="@+id/download"
+        app:layout_constraintTop_toTopOf="@+id/download"
+        app:srcCompat="@drawable/ic_download_start"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

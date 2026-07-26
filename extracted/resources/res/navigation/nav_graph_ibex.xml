@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph_ibex">
+    <fragment
+        android:name="ir.mservices.market.version2.fragments.IbexFragment"
+        android:id="@+id/ibex">
+        <argument
+            android:name="startCallback"
+            app:argType="string"
+            app:nullable="true"/>
+        <argument
+            android:name="packageName"
+            app:argType="string"
+            app:nullable="true"/>
+        <argument
+            android:name="videoUrl"
+            app:argType="string"
+            app:nullable="true"/>
+        <argument
+            android:name="aparatVideoId"
+            app:argType="string"
+            app:nullable="true"/>
+        <argument
+            android:name="videoType"
+            app:argType="string"
+            app:nullable="false"/>
+        <argument
+            android:name="videoDuration"
+            app:argType="long"
+            app:nullable="false"/>
+        <argument
+            android:name="orientation"
+            app:argType="integer"
+            app:nullable="false"/>
+    </fragment>
+    <fragment
+        android:name="ir.mservices.market.version2.fragments.MovieIbexFragment"
+        android:id="@+id/movieIbex">
+        <argument
+            android:name="ibexData"
+            app:argType="ir.mservices.market.version2.activity.IbexData"
+            app:nullable="true"/>
+    </fragment>
+</navigation>

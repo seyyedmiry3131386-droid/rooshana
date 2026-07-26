@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="account_users_max_span">2</integer>
+    <integer name="more_streamers_max_span">7</integer>
+    <integer name="movie_banner_list_item">4</integer>
+    <integer name="movie_list_item">6</integer>
+    <integer name="movie_screen_shots_span">4</integer>
+    <integer name="my_account_max_span">2</integer>
+    <integer name="mymarket_max_span">2</integer>
+    <integer name="profile_app_list_more_max_span">7</integer>
+    <integer name="profile_movie_list_more_max_span">7</integer>
+    <integer name="requests_max_span">2</integer>
+    <integer name="screen_shot_preview_count">1</integer>
+    <integer name="search_max_span">2</integer>
+</resources>

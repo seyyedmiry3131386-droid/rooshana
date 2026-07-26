@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:tag="layout/single_select_dialog_0"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ir.mservices.market.views.DialogArrowComponent
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ir.mservices.market.views.DialogHeaderComponent
+        android:gravity="start"
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_8"
+        android:layout_marginBottom="@dimen/space_16"
+        android:layout_marginStart="@dimen/space_16"
+        android:layout_marginEnd="@dimen/space_16"/>
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_height"
+        android:layout_marginBottom="@dimen/space_8"/>
+    <androidx.core.widget.NestedScrollView
+        android:paddingBottom="@dimen/space_8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ir.mservices.market.views.MyketMultiRadio
+            android:id="@+id/multi_select_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>
